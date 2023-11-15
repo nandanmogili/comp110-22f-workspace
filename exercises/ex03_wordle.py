@@ -45,7 +45,7 @@ def input_guess(exlength: int) -> str:
 def main() -> None:
     """The entrypoint of the program and main game loop."""
     k: int = 1  # represents the turn counter
-    secret = "codes"  # sets the answer of the game to "codes"
+    secret = "party"  # sets the answer of the game to "codes"
     current_guess: str = " "
     while k <= 6 and current_guess != secret:
         print(f"=== Turn {k}/6 ===")
